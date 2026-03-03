@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: yourdockerhub/httpd-app:latest
+        image: kailashjadhav19/httpd-app:latest
         ports:
         - containerPort: 80
 ---
