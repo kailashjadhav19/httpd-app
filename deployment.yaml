@@ -11,12 +11,12 @@ spec:
     metadata:
       labels:
         app: httpd
-    spec:
-      containers:
-      - name: httpd
-        image: kailashjadhav19/httpd-app:latest
-        ports:
-        - containerPort: 80
+spec:
+  containers:
+  - name: httpd
+    image: kailashjadhav19/httpd-app:latest
+    ports:
+    - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
