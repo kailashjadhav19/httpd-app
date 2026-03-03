@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: httpd-app:latest
+        image: docker.io/library/httpd:latest
         ports:
         - containerPort: 80
 ---
