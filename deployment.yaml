@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: kailashjadhav19/httpd-app:latest
+        image: httpd-app:latest
         ports:
         - containerPort: 80
 ---
